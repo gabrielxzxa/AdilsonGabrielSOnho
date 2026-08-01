@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" role="img" aria-labelledby="titulo descricao">
+    <title id="titulo">Ilustração de programação</title>
+    <desc id="descricao">Notebook com linhas de código e elementos tecnológicos.</desc>
+    <rect width="760" height="520" rx="32" fill="#081a31"/>
+    <circle cx="630" cy="92" r="64" fill="#00c2ff" opacity=".18"/>
+    <circle cx="118" cy="420" r="92" fill="#7c4dff" opacity=".18"/>
+    <rect x="120" y="92" width="520" height="310" rx="22" fill="#0d2b4f" stroke="#1f6f9d" stroke-width="4"/>
+    <rect x="148" y="124" width="464" height="246" rx="14" fill="#061222"/>
+    <circle cx="178" cy="151" r="8" fill="#ff5f57"/>
+    <circle cx="204" cy="151" r="8" fill="#ffbd2e"/>
+    <circle cx="230" cy="151" r="8" fill="#28c840"/>
+    <path d="M220 226 176 266l44 40" fill="none" stroke="#00c2ff" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="m540 226 44 40-44 40" fill="none" stroke="#00c2ff" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="m420 196-80 140" fill="none" stroke="#7c4dff" stroke-width="14" stroke-linecap="round"/>
+    <rect x="280" y="206" width="190" height="14" rx="7" fill="#dff8ff" opacity=".75"/>
+    <rect x="268" y="242" width="236" height="14" rx="7" fill="#00c2ff" opacity=".65"/>
+    <rect x="290" y="278" width="154" height="14" rx="7" fill="#7c4dff" opacity=".8"/>
+    <path d="M80 424h600l-44 54H124z" fill="#0b2b4c"/>
+    <path d="M304 424h152l18 28H286z" fill="#153e6a"/>
+    <path d="M126 478h508" stroke="#00c2ff" stroke-width="5" stroke-linecap="round" opacity=".6"/>
+</svg>

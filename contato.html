@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Sonho de Infância | CONTATO</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container cabecalho-conteudo">
+            <a class="marca" href="index.html">Meu Sonho de Infância</a>
+            <nav class="menu" aria-label="Menu principal">
+                <a href="index.html">SONHO</a>
+                <a href="hoje.html">HOJE</a>
+                <a href="futuro.html">FUTURO</a>
+                <a class="ativo" href="contato.html">CONTATO</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="pagina-topo">
+            <div class="container">
+                <p class="etiqueta">Avaliação do site</p>
+                <h1>Contato</h1>
+                <p>
+                    Gostaria de avaliar ou comentar algo sobre nosso site?
+                    use o formulario abaixo para enviar sua mensagem!
+                </p>
+            </div>
+        </section>
+
+        <section class="secao">
+            <div class="container formulario-area">
+                <form class="formulario" id="formContato"  onsubmit="return processarform()" >
+                    <div class="campo">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+                    </div>
+
+                    <div class="campo">
+                        <label for="nota">Nota</label>
+                        <select id="nota" name="nota">
+                            <option value="">Selecione uma nota</option>
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+
+                    <div class="campo">
+                        <label for="comentario">Comentário</label>
+                        <textarea id="comentario" name="comentario" placeholder="Deixe aqui o que achou do site/sugestões." ></textarea>
+                    </div>
+
+                    <div class="acoes-formulario">
+                        <button class="botao-formulario botao-enviar" name="enviar" type="submit">
+                            Enviar
+                        </button>
+                        <button class="botao-formulario botao-resetar" name="resetar" type="reset">
+                            Resetar
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>Adilson  Gabriel De Souza Melo
+            &copy; Todos direitos reservados</p>
+        <p>Trabalho acadêmico sem fins lucrativos</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
